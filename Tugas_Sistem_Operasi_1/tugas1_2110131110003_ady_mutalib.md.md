@@ -16,7 +16,7 @@
     - Batas waktu : 3 September 2022 jam 23.59 WITA
 ---
 >## PC / Laptop
-<img src="PC.png" style="width:70%">
+<img src="img/PC.png" style="width:70%">
 
 **PC adalah Personal Computer**
 
@@ -71,7 +71,7 @@ Keunggulan dari laptop antara lain adalah karena portabilitasnya, desainnya yang
 ---
 
 >## Sistem Operasi
-<img src="SO.png" style="width:70%">
+<img src="img/SO.png" style="width:70%">
 
 **Sistem operasi adalah?**
 
@@ -110,7 +110,7 @@ Sistem operasi berguna untuk menghubungkan perangkat lunak (software) dengan per
     - MacOS merupakan sistem operasi yang dikembangkan oleh Apple. Layaknya produk Apple lainnya, MacOS memiliki user interface yang sangat simpel dan mudah dijangkau. Sistem operasi ini dapat digunakan di semua perangkat keluaran Apple. Menariknya, semua terkoneksi dalam satu Apple ID yang sama.
 ---
 >## Prosesor
-<img src="PS.png" style="width:70%">
+<img src="img/PS.png" style="width:70%">
 
 **Prosesor adalah?**
 
@@ -135,7 +135,7 @@ Cpu adalah procesor, tapi procesor tidak hanya CPU. CPU : central processing uni
 ---
 
 >## Software
-<img src="SF.png" style="width:70%">
+<img src="img/SF.png" style="width:70%">
 
 **Software adalah?**
 
@@ -171,7 +171,7 @@ Manfaat utama sebuah software adalah menyederhanakan sesuatu yang rumit. Sebut s
 ---
 
 >## Hardware
-<img src="HWR.png" style="width:70%">
+<img src="img/HWR.png" style="width:70%">
 
 **Hardware adalah?**
 
@@ -236,7 +236,7 @@ Adapun fungsi hardware yaitu untuk mendukung kerja komputer, menampilkan atau me
 ---
 
 >## Penyimpanan Primer dan Sekunder
-<img src="PDS.png" style="width:70%">
+<img src="img/PDS.png" style="width:70%">
 
 **Penyimpanan Primer dan Sekunder adalah?**
 
@@ -270,7 +270,7 @@ Memori primer adalah memori yang langsung diakses oleh CPU untuk menyimpan dan m
 ---
 
 >## Eksplorasi sejarah perkembangan komputer!
-<img src="SK.png" style="width:70%">
+<img src="img/SK.png" style="width:70%">
 
 **1. Berdasarkan Data yang Diolah**
 
