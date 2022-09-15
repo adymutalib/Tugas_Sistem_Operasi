@@ -1,5 +1,8 @@
 ## Tugas Operasi Sistem :
 
+### Nama : Ady Mutalib
+### NIM : 2110131110003
+
 1. Deskripsikan terkait benda-benda berikut yang ada pada PC/Laptop kalian, baik secara : __umum, spesifikasi, manfaat/kegunaan!__
     - PC/Laptop
     - Sistem Operasi
