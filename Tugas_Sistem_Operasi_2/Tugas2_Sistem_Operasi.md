@@ -2477,7 +2477,7 @@ Selanjutnya kita memiliki beberapa studi kasus sistem operasi nyata. Ini adalah 
 Linux, dan Android (Chap. 10), dan Windows 8 (Bab. 11). Teks menyimpulkan
 dengan beberapa kebijaksanaan dan pemikiran tentang desain sistem operasi di Chap. 12.
 
-## 1.11 SATUAN METRIK
+## 1.11 SATUAN METRIK 
 
 Untuk menghindari kebingungan, perlu dinyatakan secara eksplisit bahwa dalam buku ini, seperti dalam
 ilmu komputer secara umum, satuan metrik digunakan sebagai pengganti bahasa Inggris tradisional
