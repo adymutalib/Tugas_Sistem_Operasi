@@ -42,7 +42,7 @@ peduli) berapa banyak masalah yang mereka sebabkan untuk perangkat lunak. Salah 
 dari sistem operasi adalah untuk menyembunyikan perangkat keras dan program ini (dan mereka
 programmer) dengan abstraksi yang bagus, bersih, elegan, konsisten, untuk digunakan sebagai gantinya. Sistem operasi mengubah yang jelek menjadi indah, seperti yang ditunjukkan pada gambar. 1-2
 
-<img src="img1.1.png" style="width:70%">
+<img src="img/img1.1.png" style="width:70%">
 
 Perlu dicatat bahwa pelanggan nyata sistem operasi adalah program aplikasi (melalui programmer aplikasi, tentu saja). Mereka adalah orang-orang
 yang berhubungan langsung dengan sistem operasi dan abstraksi nya. Sebaliknya, akhir
@@ -174,7 +174,7 @@ sistem operasi), yang membaca pekerjaan pertama dari tape dan menjalankannya. Ou
 ditulis ke kaset kedua, bukannya dicetak. Setelah setiap pekerjaan selesai, maka
 sistem operasi secara otomatis membaca pekerjaan berikutnya dari rekaman itu dan mulai berjalan.
 
-<img src="img1.2.png" style="width:70%">
+<img src="img/img1.2.png" style="width:70%">
 
 itu. Ketika seluruh batch dilakukan, operator dihapus input dan output
 kaset, mengganti pita input dengan batch berikutnya, dan membawa pita output ke a
@@ -195,7 +195,7 @@ Sistem) dan IBSYS, sistem operasi IBM untuk 7094.
 
 Pada awal 1960-an, sebagian besar produsen komputer memiliki dua lini produk yang berbeda dan tidak kompatibel. Di satu sisi, ada komputer ilmiah skala besar yang berorientasi kata, seperti 7094, yang digunakan untuk perhitungan numerik kekuatan industri dalam sains dan teknik. Di sisi lain, ada
 
-<img src="img1.3.png" style="width:70%">
+<img src="img/img1.3.png" style="width:70%">
 
 berorientasi Karakter, komputer komersial, seperti 1401, yang secara luas
 digunakan untuk penyortiran dan pencetakan pita oleh bank dan perusahaan asuransi.
@@ -253,7 +253,7 @@ Memiliki beberapa pekerjaan dengan aman di memori sekaligus memerlukan perangkat
 setiap pekerjaan terhadap mengintip dan kerusakan oleh yang lain, tetapi 360 dan lainnya
 sistem generasi ketiga dilengkapi dengan perangkat keras ini.
 
-<img src="img1.4.png" style="width:70%">
+<img src="img/img1.4.png" style="width:70%">
 
 Fitur utama lain yang hadir dalam sistem operasi generasi ketiga adalah
 kemampuan untuk membaca pekerjaan dari kartu ke disk segera setelah mereka dibawa ke
@@ -540,7 +540,7 @@ ringkasan yang sangat ringkas. Banyak buku telah ditulis tentang masalah kompute
 perangkat keras dan organisasi komputer. Dua yang terkenal adalah oleh Tanenbaum
 dan Austin (2012) dan Patterson dan Hennessy (2013).
 
-<img src="img1.5.png" style="width:70%">
+<img src="img/img1.5.png" style="width:70%">
 
 ### 1.3.1 prosesor
 
@@ -581,7 +581,7 @@ dieksekusi, bahkan jika instruksi sebelumnya adalah cabang bersyarat yang diambi
 Pipelines cause compiler writers and operating system writers great headaches because they expose the complexities of the underlying machine to them and they
 have to deal with them.
 
-<img src="img1.6.png" style="width:70%">
+<img src="img/img1.6.png" style="width:70%">
 
 Bahkan lebih maju dari desain pipa adalah CPU superscalar, ditampilkan dalam
 GbR. 1-7 (b). Dalam desain ini, beberapa unit eksekusi hadir, misalnya, satu
@@ -652,7 +652,7 @@ poligon dalam aplikasi grafis. Mereka tidak begitu pandai dalam tugas serial. Me
 juga sulit untuk program. Sementara GPU dapat berguna untuk sistem operasi (misalnya, enkripsi atau pengolahan lalu lintas jaringan), tidak mungkin bahwa banyak
 sistem itu sendiri akan berjalan pada GPU.
 
-<img src="img1.7.png" style="width:70%">
+<img src="img/img1.7.png" style="width:70%">
 
 ### 1.3.2 Memori
 
@@ -664,7 +664,7 @@ Lapisan atas terdiri dari register internal ke CPU. Mereka terbuat dari
 bahan yang sama seperti CPU dan dengan demikian hanya secepat CPU. Akibatnya,
 tidak ada penundaan dalam mengaksesnya. Kapasitas penyimpanan yang tersedia di dalamnya adalah 
 
-<img src="img1.8.png" style="width:70%">
+<img src="img/img1.8.png" style="width:70%">
 
 biasanya 32 52 bit pada CPU 32-bit dan 64 64 bit pada CPU 64-bit. Kurang dari
 1 KB dalam kedua kasus. Program harus mengelola register (yaitu, memutuskan apa yang harus disimpan
@@ -754,7 +754,7 @@ juga. Satu-satunya masalah adalah bahwa waktu untuk mengakses data secara acak d
 tiga kali lipat lebih lambat. Alasannya adalah bahwa disk adalah perangkat mekanis,
 seperti yang ditunjukkan pada gambar. 1-10.
 
-<img src="img1.9.png" style="width:70%">
+<img src="img/img1.9.png" style="width:70%">
 
 Disk terdiri dari satu atau lebih piring logam yang berputar pada 5400, 7200, 10.800
 RPM atau lebih. Lengan mekanis berputar di atas piring-piring dari sudut, serupa
@@ -859,7 +859,7 @@ chip menggunakan jalur bus tertentu pada Langkah 2. Jika pengontrol interupsi si
 interupsi (yang mungkin tidak jika sibuk menangani yang prioritas lebih tinggi), ia menegaskan pin pada chip CPU yang menceritakannya, pada Langkah 3. Pada Langkah 4, interrupt controller perangkat ini memiliki slot memori standar (seperti SD atau slot kartu micro SD) sehingga Anda dapat memperpanjang penyimpanan internal dengan modul memori yang terjangkau atau Anda dapat mengambil data, seperti foto
 perangkat baru saja selesai (banyak perangkat dapat berjalan pada waktu yang sama).
 
-<img src="img1.10.png" style="width:70%">
+<img src="img/img1.10.png" style="width:70%">
 
 Setelah CPU memutuskan untuk mengambil interupsi, penghitung program dan PSW
 biasanya kemudian didorong ke tumpukan saat ini dan CPU beralih ke kernel
@@ -892,7 +892,7 @@ ke titik puncaknya. Sesuatu harus memberi. Akibatnya, bus tambahan
 Ditambahkan, baik untuk Perangkat I/O yang lebih cepat dan untuk lalu lintas CPU-ke-memori. Sebagai konsekuensi dari evolusi ini, sistem x86 besar saat ini terlihat seperti
 GbR. 1-12.
 
-<img src="img1.11.png" style="width:70%">
+<img src="img/img1.11.png" style="width:70%">
 
 Sistem ini memiliki banyak bus (misalnya, cache, memori, PCIe, PCI, USB, SATA, dan
 DMI), masing-masing dengan kecepatan transfer dan fungsi yang berbeda. Sistem operasi harus
@@ -1175,7 +1175,7 @@ mendapatkan beberapa pekerjaan yang dilakukan sering perlu untuk berkomunikasi d
 kegiatan mereka. Komunikasi ini disebut komunikasi interprocess, dan
 akan dibahas secara rinci dalam Chap. 2.
 
-<img src="img1.12.png" style="width:70%">
+<img src="img/img1.12.png" style="width:70%">
 
 Panggilan sistem proses lainnya tersedia untuk meminta lebih banyak memori (atau rilis
 memori yang tidak terpakai), menunggu proses anak untuk mengakhiri, dan overlay programnya
@@ -1237,7 +1237,7 @@ World Wide Web halaman rumah. Panggilan sistem kemudian diperlukan untuk membuat
 direktori. Panggilan juga disediakan untuk menempatkan file yang ada di direktori dan untuk menghapus file dari direktori. Entri direktori dapat berupa file atau direktori lain. Model ini juga menimbulkan hierarki-sistem file - seperti yang ditunjukkan pada
 GbR. 1-14.
 
-<img src="img1.13.png" style="width:70%">
+<img src="img/img1.13.png" style="width:70%">
 
 Proses dan hierarki file keduanya diatur sebagai pohon, tetapi kesamaannya
 berhenti di situ. Hierarki proses Biasanya tidak terlalu dalam (lebih dari tiga tingkat adalah
@@ -1280,7 +1280,7 @@ mampu mengakses file-file ini tidak seserius pada awalnya tampaknya: sistem file
 selalu dipasang pada direktori kosong.) Jika suatu sistem berisi beberapa hard disk,
 mereka semua dapat dipasang menjadi satu pohon juga.
 
-<img src="img1.14.png" style="width:70%">
+<img src="img/img1.14.png" style="width:70%">
 
 Konsep penting lainnya dalam UNIX adalah file khusus. File khusus disediakan untuk membuat perangkat I / O terlihat seperti file. Dengan begitu, mereka dapat dibaca dan
 ditulis menggunakan panggilan sistem yang sama seperti yang digunakan untuk membaca dan menulis file. Dua
@@ -1299,7 +1299,7 @@ proses dapat menemukan bahwa file keluaran yang ditulisnya sebenarnya bukan file
 pipa, adalah dengan melakukan system call khusus. Sistem File sangat penting. Kami akan
 memiliki lebih banyak untuk mengatakan tentang mereka di Chap. 4 dan juga dalam bab. 10 dan 11.
 
-<img src="img1.15.png" style="width:70%">
+<img src="img/img1.15.png" style="width:70%">
 
 ### 1.5.4 Masukan / Keluaran
 
@@ -1669,7 +1669,7 @@ daftar (Langkah 5). Kemudian mengeksekusi instruksi perangkap untuk beralih dari
 mode kernel dan mulai eksekusi pada alamat tetap di dalam kernel (Langkah 6). The
 Instruksi TRAP sebenarnya cukup mirip dengan instruksi panggilan prosedur di
 
-<img src="img1.16.png" style="width:70%">
+<img src="img/img1.16.png" style="width:70%">
 
 arti bahwa instruksi berikut ini diambil dari lokasi yang jauh dan kembali
 alamat disimpan di tumpukan untuk digunakan nanti.
@@ -1723,10 +1723,10 @@ nilai, yaitu nol pada anak dan sama dengan PID anak (pengenal proses)
 pada orang tua. Dengan menggunakan PID yang dikembalikan, kedua proses dapat melihat mana yang
 proses induk dan mana yang merupakan proses anak.
 
-<img src="img1.17.png" style="width:70%">
-<img src="img1.18.png" style="width:70%">
-<img src="img1.19.png" style="width:70%">
-<img src="img1.20.png" style="width:70%">
+<img src="img/img1.17.png" style="width:70%">
+<img src="img/img1.18.png" style="width:70%">
+<img src="img/img1.19.png" style="width:70%">
+<img src="img/img1.20.png" style="width:70%">
 
 Dalam kebanyakan kasus, setelah garpu, anak perlu mengeksekusi kode yang berbeda dari
 orang tua. Pertimbangkan kasus cangkangnya. Ini membaca perintah dari terminal,
@@ -1746,7 +1746,7 @@ adalah exec, tetapi beberapa prosedur Perpustakaan menyebutnya dengan parameter 
 Nama yang berbeda. Kami akan memperlakukan ini sebagai panggilan sistem di sini.) Shell yang sangat disederhanakan
 mengilustrasikan penggunaan fork, waitpid, dan execve ditunjukkan pada gambar. 1-19.
 
-<img src="img1.21.png" style="width:70%">
+<img src="img/img1.21.png" style="width:70%">
 
 Dalam kasus yang paling umum, execve memiliki tiga parameter: nama file ke
 dieksekusi, pointer ke array argumen, dan pointer ke lingkungan
@@ -1795,7 +1795,7 @@ untuk dibuka, baik sebagai nama path absolut atau relatif terhadap direktori ker
 serta kode O RDONLY, O WRONLY, atau O RDWR, yang berarti terbuka untuk
 membaca, menulis, atau keduanya. Untuk membuat file baru, parameter O CREAT digunakan.
 
-<img src="img1.22.png" style="width:70%">
+<img src="img/img1.22.png" style="width:70%">
 
 Deskriptor file yang dikembalikan kemudian dapat digunakan untuk membaca atau menulis. Setelah itu
 file dapat ditutup oleh dekat, yang membuat deskriptor file yang tersedia untuk digunakan kembali pada
@@ -1834,7 +1834,7 @@ catatan. Setelah itu,/usr/jim /memo dan/usr/ast / note merujuk ke file yang sama
 selain itu, apakah direktori pengguna disimpan di / usr, / user, / home, atau di tempat lain
 hanya keputusan yang dibuat oleh administrator sistem lokal.
 
-<img src="img1.23.png" style="width:70%">
+<img src="img/img1.23.png" style="width:70%">
 
 Memahami cara kerja tautan mungkin akan memperjelas apa yang dilakukannya.
 Setiap file di UNIX memiliki Nomor Unik, Nomor-i-nya, yang mengidentifikasinya. Ini
@@ -1861,7 +1861,7 @@ di mana parameter pertama adalah nama file khusus blok untuk drive USB 0, file
 parameter kedua adalah tempat di pohon di mana ia akan dipasang, dan yang ketiga
 parameter memberitahu Apakah sistem file yang akan dipasang baca-tulis atau read-only
 
-<img src="img1.24.png" style="width:70%">
+<img src="img/img1.24.png" style="width:70%">
 
 Setelah panggilan mount, file pada drive 0 dapat diakses hanya dengan menggunakan jalurnya
 dari direktori root atau direktori kerja, tanpa memperhatikan drive mana itu
@@ -1950,7 +1950,7 @@ Antarmuka Win32 tidak memiliki tautan ke file, sistem file yang dipasang, keaman
 Win32 memiliki sejumlah besar panggilan lain yang tidak dimiliki UNIX, terutama untuk
 mengelola GUI. Windows Vista memiliki sistem keamanan yang rumit dan juga mendukung tautan file. Windows 7 dan 8 menambahkan lebih banyak fitur dan panggilan sistem.
 
-<img src="img1.25.png" style="width:70%">
+<img src="img/img1.25.png" style="width:70%">
 
 Satu catatan terakhir tentang Win32 mungkin layak Dibuat. Win32 tidak sangat
 antarmuka yang seragam atau konsisten. Penyebab utama di sini adalah kebutuhan untuk kompatibel dengan antarmuka 16-bit sebelumnya yang digunakan di Windows 3.x.
@@ -2000,7 +2000,7 @@ disebut sebagai Shared Library. Di Windows mereka disebut dll (Dynamic-Link
 Perpustakaan). Mereka memiliki ekstensi file .dll dan C:\Windows\system32 direktori
 pada sistem Windows memiliki lebih dari 1000 dari mereka.
 
-<img src="img1.26.png" style="width:70%">
+<img src="img/img1.26.png" style="width:70%">
 
 ### 1.7.2 Sistem Berlapis
 
@@ -2014,7 +2014,7 @@ yang dapat diprogram tanpa harus khawatir tentang fakta bahwa beberapa
 proses berjalan pada satu prosesor. Dengan kata lain, layer 0 menyediakan
 multiprogramming dasar dari CPU.
 
-<img src="img1.27.png" style="width:70%">
+<img src="img/img1.27.png" style="width:70%">
 
 Layer 1 melakukan manajemen memori. Ini mengalokasikan ruang untuk proses di utama
 memori dan pada drum kata 512K digunakan untuk memegang bagian dari proses (halaman) untuk
@@ -2092,7 +2092,7 @@ Di luar kernel, sistem ini disusun sebagai tiga lapisan proses yang semuanya ber
 mode pengguna, mereka tidak memiliki akses fisik ke ruang port I / O dan tidak dapat mengeluarkan
 Perintah I / O secara langsung. Sebagai gantinya, untuk memprogram perangkat I / O, driver membangun struktur yang memberi tahu nilai mana yang akan ditulis ke port I / O mana dan membuat panggilan kernel memberi tahu
 
-<img src="img1.28.png" style="width:70%">
+<img src="img/img1.28.png" style="width:70%">
 
 kernel untuk melakukan write. Pendekatan ini berarti bahwa kernel dapat memeriksa untuk melihat
 bahwa pengemudi menulis (atau membaca) dari I/O itu berwenang untuk digunakan. Akibatnya
@@ -2140,7 +2140,7 @@ Sejauh menyangkut klien, hal yang sama terjadi dalam kedua kasus: permintaan ada
 dikirim dan balasan kembali. Dengan demikian Model client-server merupakan abstraksi yang dapat
 digunakan untuk satu mesin atau untuk jaringan mesin.
 
-<img src="img1.29.png" style="width:70%">
+<img src="img/img1.29.png" style="width:70%">
 
 Semakin banyak sistem melibatkan pengguna di PC rumah mereka sebagai klien dan besar
 mesin di tempat lain berjalan sebagai server. Bahkan, sebagian besar Web beroperasi ini
@@ -2166,7 +2166,7 @@ hardware telanjang dan melakukan multiprogramming, menyediakan tidak satu, tapi 
 sistem operasi lain, mesin virtual ini tidak diperpanjang mesin, dengan
 file dan fitur bagus lainnya. Sebaliknya, mereka adalah salinan persis dari perangkat keras telanjang, termasuk mode kernel / pengguna, I / O, interupsi, dan segala sesuatu yang dimiliki mesin nyata.
 
-<img src="img1.30.png" style="width:70%">
+<img src="img/img1.30.png" style="width:70%">
 
 Karena setiap mesin virtual identik dengan perangkat keras yang sebenarnya, masing-masing dapat
 jalankan sistem operasi apa pun yang akan berjalan langsung pada perangkat keras telanjang. Mesin virtual yang berbeda dapat, dan sering melakukan, menjalankan sistem operasi yang berbeda. Pada sistem IBM VM / 370 asli, beberapa menjalankan OS/360 atau salah satu dari batch besar lainnya atau
@@ -2208,7 +2208,7 @@ telah berganti nama menjadi hypervisor tipe 1, yang umum digunakan saat ini kare
 "monitor mesin virtual" membutuhkan lebih banyak penekanan tombol daripada yang disiapkan orang
 Tahan sekarang. Perhatikan bahwa banyak penulis menggunakan istilah tersebut secara bergantian.
 
-<img src="img1.31.png" style="width:70%">
+<img src="img/img1.31.png" style="width:70%">
 
 Meskipun tidak ada yang membantah daya tarik mesin virtual saat ini, masalahnya
 kemudian adalah implementasi. Untuk menjalankan perangkat lunak mesin virtual di komputer,
@@ -2381,7 +2381,7 @@ program yang dapat dieksekusi, secara tradisional disebut. out pada sistem UNIX.
 komponen dari proses ini diilustrasikan pada gambar. 1-30 untuk program dengan tiga C
 file dan dua file header. Meskipun kami telah membahas pengembangan sistem operasi di sini, semua ini berlaku untuk mengembangkan program besar apa pun.
 
-<img src="img1.32.png" style="width:70%">
+<img src="img/img1.32.png" style="width:70%">
 
 ### 1.8.4 Model waktu berjalan
 
@@ -2487,7 +2487,7 @@ unit lebih besar dari 1 dikapitalisasi. Jadi database 1-TB menempati 1012 byte p
 mikro keduanya dimulai dengan huruf "m," pilihan harus dibuat. Biasanya, "m" adalah
 untuk milli dan "Portuguese" (huruf Yunani mu) adalah untuk mikro.
 
-<img src="img1.33.png" style="width:70%">
+<img src="img/img1.33.png" style="width:70%">
 
 Perlu juga ditunjukkan bahwa, dalam praktik industri umum, unit untuk
 mengukur ukuran memori memiliki arti yang sedikit berbeda. Ada kilo berarti 210
