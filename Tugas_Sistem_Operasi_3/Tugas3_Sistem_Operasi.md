@@ -135,17 +135,15 @@ Layanan sistem operasi dirancang untuk membuat pemrograman menjadi lebih mudah.
 
 - Cara membuat folder dan file baru di Visual Stodio Code
     - Buka aplikasi Visual Stodio Code
-        - <img src="img/9.png" style="width:40%">
-    - Lalu pilih New Document
-    - Lalu buat nama file misal (belajar)
-    - Lalu buat jenis warnanya misal (CMYK)
-    - Lalu atur ukuran panjang dan tinggi
-    - Lalu pilih satuannya misal (milimeter)
-    - Lalu atur resulusinya misal (300 : dpi)
-        - <img src="img/10.png" style="width:40%">
-    - Selesai 
-        - <img src="img/11.png" style="width:40%">
-        
-
+        - <img src="img/13.png" style="width:40%">
+    - Untuk membuat file misal (markdown/md)
+        - Pilih ikon kotak file
+        - Lalu buat nama file misal (tugas1.md)
+        - <img src="img/14.png" style="width:40%">
+    - Untuk membuat folder misal (image/img)
+        - Pilih ikon kotak folder
+        - Lalu buat nama folder misal (img)
+        - <img src="img/15.png" style="width:40%">
+    - Selesai
 
 
