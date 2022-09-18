@@ -143,7 +143,7 @@ Layanan sistem operasi dirancang untuk membuat pemrograman menjadi lebih mudah.
     - Untuk membuat folder misal (image/img)
         - Pilih ikon kotak folder
         - Lalu buat nama folder misal (img)
-        - <img src="img/15.png" style="width:40%">
+        - <img src="img/16.png" style="width:40%">
     - Selesai
 
 
