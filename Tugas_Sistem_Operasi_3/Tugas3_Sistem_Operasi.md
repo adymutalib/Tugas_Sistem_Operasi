@@ -146,4 +146,59 @@ Layanan sistem operasi dirancang untuk membuat pemrograman menjadi lebih mudah.
         - <img src="img/16.png" style="width:40%">
     - Selesai
 
+<br>
+<br>
 
+> # Sistem Call
+
+<p align=justify>Biasanya tersedia sebagai instruksi bahasa assembly. Beberapa sistem mengizinkan system calls dibuat langsung dari program bahasa tingkat tinggi. Beberapa bahasa pemrograman (contoh: C, C++) telah didefenisikan untuk menggantikan bahasa assembly untuk sistem pemrograman. 
+
+Jenis System calls:
+- System calls yang berhubungan dengan kontrol proses antara lain ketika penghentian pengeksekusian program. Baik secara normal (end) maupun tidak normal (abort). 
+- Selama proses dieksekusi kadang kala diperlukan untuk me-load atau mengeksekusi program lain, disini diperlukan lagi suatu system calls. Juga ketika membuat suatu proses baru dan menghentikan sebuah proses. Ada juga system calls yang dipanggil ketika kita ingin meminta dan merubah atribut dari suatu proses. 
+- MS-DOS adalah contoh dari sistem single-tasking. MS-DOS menggunakan metoda yang sederhana dalam menjalankan programan tidak menciptakan proses baru. Program di-load ke dalam memori, kemudian program dijalankan. Berkeley Unix adalah contoh dari sistem multi-tasking. Command Interpereter masih tetap bisa dijalankan ketika program lain dieksekusi.
+
+<br>
+
+**System calls manajemen proses:**
+
+System Call untuk manajemen proses diperlukan untuk mengatur proses-proses yang sedang berjalan. Kita dapat melihat penggunaan system calls untuk manajemen proses pada Sistem Operasi Unix. Contoh yang paling baik untuk melihat bagaimana system call bekerja untuk manajemen proses adalah Fork. Fork adalah satu satunya cara untuk membuat sebuah proses baru pada sistem Unix. Fork membuat duplikasi yang mirip dengan proses aslinya, termasuk file descriptor, register, dan lainnya. 
+Setelah perintah Fork, child akan mengeksekusi kode yang berbeda dengan parentnya. Bayangkan yang terjadi pada shell. Shell akan membaca command dari terminal, melakukan fork pada child, menunggu child untuk mengeksekusi command tersebut, dan membaca command lainnya ketika child terminate. 
+Untuk menunggu child selesai, parent akan mengeksekusi system call waitpid, yang hanya akan menunggu sampai child selesai. Proses child harus mengeksekusi command yang dimasukkan oleh user(pada kasus shell). Proses child melakukannya dengan menggunakan system call exec. 
+Dari ilustrasi tersebut kita dapat mengetahui bagaimana system call dipakai untuk manajemen proses. Kasus lainnya bukan hanya pada Fork, tetapi hampir setiap proses memerlukan system call untuk melakukan manajement proses. 
+
+System calls manajemen berkas:
+System calls yang berhubungan dengan berkas sangat diperlukan. Seperti ketika kita ingin membuat atau menghapus suatu berkas. Atau ketika ingin membuka atau menutup suatu berkas yang telah ada, membaca berkas tersebut, dan menulis berkas itu. System calls juga diperlukan ketika kita ingin mengetahui atribut dari suatu berkas atau ketika kita juga ingin merubah atribut tersebut. Yang termasuk atribut berkas adalah nama berkas, jenis berkas, dan lain-lain. 
+Ada juga system calls yang menyediakan mekanisme lain yang berhubungan dengan direktori atau sistim berkas secara keseluruhan. Jadi bukan hanya berhubungan dengan satu spesifik berkas. Contohnya membuat atau menghapus suatu direktori, dan lain-lain. 
+
+system calls manajemen piranti:
+Program yang sedang dijalankan kadang kala memerlukan tambahan sumber daya. Jika banyak 
+pengguna yang menggunakan sistem, maka jika memerlukan tambahan sumber daya maka harus meminta peranti terlebih dahulu. Dan setelah selesai penggunakannnya harus dilepaskan kembali. Ketika sebuah peranti telah diminta dan dialokasikan maka peranti tersebut bisa dibaca, ditulis, atau direposisi. 
+
+## Contoh Sistem Calls yang ada pada laptop saya adalah:
+
+**1. System Call di CMD**
+
+<img src="img/17.png" style="width:40%">
+
+- Cara membuat folder baru
+    - ketik mkdir buat nama folder misal (DATA_KULIAH)
+    - ketik dir untuk melihat folder baru
+        - <img src="img/18.png" style="width:40%">
+
+- Cara membuat folder dalam folder
+    - ketik mkdir DATA_KULIAH\ nama folder misal (TUGAS)
+    - ketik cd DA
+    - lalu tab dan tekan enter
+    - maka akan tampil seperti gambar  :
+        - <img src="img/19.png" style="width:40%">
+    - lalu ketik dir
+    - disitu sudah ada folder tugas
+        - <img src="img/20.png" style="width:40%">
+
+- Cara membuat file txt
+    - ketik copy con nama file misal (Tugas1.txt)
+        - <img src="img/19.png" style="width:40%">
+    - lalu ketik dir
+    - disitu sudah ada file dengan nama Tugas1.txt
+        - <img src="img/21.png" style="width:40%">
