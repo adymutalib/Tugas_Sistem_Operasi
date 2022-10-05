@@ -253,7 +253,7 @@ Contoh dari sistem operasi ini adalah <b>bMS-DOS</b> dan <b>UNIX</b>, dengan cir
 
 <p align="justify">Sistem operasi berlapis memiliki beberapa lapis yang beragam, mulai dari bagian atas hingga bagian bawah. Masing-masing lapisan ini memiliki fungsi dan tujuannya tersendiri yang saling mendukung satu sama lain. Lapisan paling bawah digunakan untuk perangkat keras, sedangkan lapisan paling atas digunakan untuk <i>user interface.</i><br></p>
 
-<p align="center"><img src="gambar/SO-2.PNG" alt="" width="350px">
+<p align="center"><img src="gambar/9.PNG" alt="" width="350px">
 <p align="center">Gambar Struktur Berlapis</p>
 
 <p align="justify">Sistem berlapis banyak digunakan karena dapat mengurangi kompleksitas rancangan dari implementasi sebuah sistem operasi. Setiap lapisan struktur tersebut berasal dari hasil implementasi objek abstrak. Kondisi ini menyebabkan hasil implementasi berasal dari data yang terenkapsul dan operasu yang dapat dimanipulasi. Salah satu contoh struktur sistem berlapis adalah <i>The System</i>.<br></p>
@@ -289,7 +289,7 @@ Kernel adalah komponen sentral dari sistem operasi. Ia mengatur hal-hal seperti 
 Cara tradisional untuk membangun sistem operasi adalah dengan membuat kernel monolitik, yaitu semua fungsi disediakan oleh kernel, dan ini menjadikan kernel suatu program yang besar dan kompleks.
 Cara yang lebih modern, adalah dengan menggunakan kernel mikro. Kernel mikro adalah sistem operasi yang mempermudah komunikasi, antara program klien dengan beragam layanan pada ruang user. Komunikasi yang terjadi antara <i>module user</i> menggunakan <i>passing massage.</i></p>
 
-<p align="center"><img src="gambar/SO-1.PNG" alt="" width="350px">
+<p align="center"><img src="gambar/10.PNG" alt="" width="350px">
 <p align="center">Gambar Struktur Kernel Mikro</p>
 
 <p align="justify">Beberapa sistem operasi yang menerapkan mikro kernel adalah:</p>
